@@ -1,0 +1,10 @@
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\bin\Debug\Transfernet.exe.config
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\obj\Debug\Transfernet.csprojResolveAssemblyReference.cache
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\obj\Debug\Transfernet.Form1.resources
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\obj\Debug\Transfernet.Properties.Resources.resources
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\obj\Debug\Transfernet.csproj.GenerateResource.Cache
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\bin\Debug\Transfernet.exe
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\bin\Debug\Transfernet.pdb
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\obj\Debug\Transfernet.exe
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\obj\Debug\Transfernet.pdb
+c:\users\5042894683\documents\visual studio 2015\Projects\Transfernet\Transfernet\obj\Debug\Transfernet.Buy.resources

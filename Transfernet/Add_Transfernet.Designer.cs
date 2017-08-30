@@ -39,11 +39,14 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.metroCheckBox2 = new MetroFramework.Controls.MetroCheckBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.metroCheckBox3 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroCheckBox2 = new MetroFramework.Controls.MetroCheckBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.metroButton5 = new MetroFramework.Controls.MetroButton();
+            this.metroButton6 = new MetroFramework.Controls.MetroButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -145,7 +148,7 @@
             this.groupBox2.Controls.Add(this.metroButton2);
             this.groupBox2.Location = new System.Drawing.Point(442, 44);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(548, 499);
+            this.groupBox2.Size = new System.Drawing.Size(548, 465);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contents";
@@ -160,6 +163,13 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Name";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 44);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(401, 20);
+            this.textBox1.TabIndex = 1;
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.metroCheckBox3);
@@ -170,24 +180,6 @@
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Options";
-
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(6, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(401, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // metroCheckBox2
-            // 
-            this.metroCheckBox2.AutoSize = true;
-            this.metroCheckBox2.Location = new System.Drawing.Point(24, 34);
-            this.metroCheckBox2.Name = "metroCheckBox2";
-            this.metroCheckBox2.Size = new System.Drawing.Size(113, 15);
-            this.metroCheckBox2.TabIndex = 0;
-            this.metroCheckBox2.Text = "metroCheckBox2";
-            this.metroCheckBox2.UseSelectable = true;
             // 
             // metroCheckBox3
             // 
@@ -199,11 +191,51 @@
             this.metroCheckBox3.Text = "metroCheckBox3";
             this.metroCheckBox3.UseSelectable = true;
             // 
+            // metroCheckBox2
+            // 
+            this.metroCheckBox2.AutoSize = true;
+            this.metroCheckBox2.Location = new System.Drawing.Point(24, 34);
+            this.metroCheckBox2.Name = "metroCheckBox2";
+            this.metroCheckBox2.Size = new System.Drawing.Size(113, 15);
+            this.metroCheckBox2.TabIndex = 0;
+            this.metroCheckBox2.Text = "metroCheckBox2";
+            this.metroCheckBox2.UseSelectable = true;
+            // 
+            // metroButton4
+            // 
+            this.metroButton4.Location = new System.Drawing.Point(828, 520);
+            this.metroButton4.Name = "metroButton4";
+            this.metroButton4.Size = new System.Drawing.Size(75, 23);
+            this.metroButton4.TabIndex = 15;
+            this.metroButton4.Text = "OK";
+            this.metroButton4.UseSelectable = true;
+            // 
+            // metroButton5
+            // 
+            this.metroButton5.Location = new System.Drawing.Point(909, 520);
+            this.metroButton5.Name = "metroButton5";
+            this.metroButton5.Size = new System.Drawing.Size(75, 23);
+            this.metroButton5.TabIndex = 16;
+            this.metroButton5.Text = "Cancel";
+            this.metroButton5.UseSelectable = true;
+            // 
+            // metroButton6
+            // 
+            this.metroButton6.Location = new System.Drawing.Point(23, 520);
+            this.metroButton6.Name = "metroButton6";
+            this.metroButton6.Size = new System.Drawing.Size(75, 23);
+            this.metroButton6.TabIndex = 17;
+            this.metroButton6.Text = "Advanced";
+            this.metroButton6.UseSelectable = true;
+            // 
             // Add_Transfernet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1013, 566);
+            this.Controls.Add(this.metroButton6);
+            this.Controls.Add(this.metroButton5);
+            this.Controls.Add(this.metroButton4);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -239,5 +271,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private MetroFramework.Controls.MetroCheckBox metroCheckBox3;
         private MetroFramework.Controls.MetroCheckBox metroCheckBox2;
+        private MetroFramework.Controls.MetroButton metroButton4;
+        private MetroFramework.Controls.MetroButton metroButton5;
+        private MetroFramework.Controls.MetroButton metroButton6;
     }
 }

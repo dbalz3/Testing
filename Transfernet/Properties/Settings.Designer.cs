@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Transfernet.Properties
+namespace WindowsFormsApplication1.Properties
 {
 
 

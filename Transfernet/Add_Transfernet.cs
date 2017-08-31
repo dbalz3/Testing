@@ -22,8 +22,21 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
 
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            // Displays a SaveFileDialog so the user can save the Image  
+            // assigned to Button2.  
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.Filter = "Transfernet File| *.transfernet";
+            saveFileDialog1.Title = "Save File";
+            saveFileDialog1.ShowDialog();
 
+            
+        }
     }
 }

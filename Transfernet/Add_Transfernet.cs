@@ -38,5 +38,34 @@ namespace WindowsFormsApplication1
 
             
         }
+
+        private void metroButton5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            //this is the ok button to save the transfernet file
+
+            
+        }
+
+        private void Buy_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

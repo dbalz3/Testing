@@ -39,8 +39,13 @@ namespace WindowsFormsApplication1
             {
                     Add_Transfernet frm = new Add_Transfernet();
                     frm.Show();
-                
+
+                //when a transfernet file is added, the savefilename is displayed in the files control box
+                tabFiles.Controls.Add(new Label());
+                filesName.Text = openFileDialog1.SafeFileName;
             }
+
+
             Console.WriteLine(result); // <-- For debugging use.
 
 
@@ -48,7 +53,7 @@ namespace WindowsFormsApplication1
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
-            
+
         }
 
         private void metroGrid2_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -70,8 +75,12 @@ namespace WindowsFormsApplication1
         {
 
         }
-
         private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel1_Click(object sender, EventArgs e)
         {
 
         }
